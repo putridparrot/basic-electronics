@@ -1,6 +1,6 @@
 # Basic Electronics
 
-I'm trying to learn (well partly re-learn) about electronics, with the capabilities of microcontrollers such as the Arduino's, ESP32, and Raspberry Pi's (such as the Pico) there's so many oppurtunites for controller electronic devices or getting information from them.
+I'm trying to learn (well partly re-learn) electronics. With the capabilities of microcontrollers such as the Arduino's, ESP32, and Raspberry Pi's (such as the Pico) there's so many oppurtunites for controller electronic devices or getting information from them.
 
 ---
 
@@ -42,7 +42,7 @@ Let's look at a few of the really core components used in electronics projects.
 
 ---
 
-## Quick Reference — Schematic Symbols
+## Quick Reference
 
 | Component | Key Feature |
 |---|---|
