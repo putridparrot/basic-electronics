@@ -180,7 +180,7 @@ A logic analyser captures and displays digital signals over time, making it inva
 
 ## Oscilloscope
 
-_Note: This one's not probably for most basic electronics projects, but never the less can be really useful._
+_Note: This one is not essential for most basic electronics projects, but it can still be very useful._
 
 An oscilloscope plots voltage over time as a waveform on a screen. It shows you what is actually happening in an analogue or digital signal.
 
@@ -188,3 +188,30 @@ An oscilloscope plots voltage over time as a waveform on a screen. It shows you 
 - Budget digital oscilloscopes (e.g. Rigol DS1054Z, Fnirsi) are reasonably affordable and very capable.
 - Use it to: measure signal frequency and duty cycle, check for noise/ripple on a power supply, debug PWM signals, visualise audio waveforms.
 - A logic analyser is better for decoding digital protocols; an oscilloscope is better for analogue signal shapes.
+
+---
+
+## Worked Example: Debugging a Non-Blinking LED Circuit
+
+Scenario: an LED connected to a microcontroller pin does not blink as expected.
+
+Step-by-step workflow:
+
+1. Multimeter (voltage mode): confirm board supply rail is present.
+2. Multimeter (continuity mode, power off): confirm LED resistor path is connected and not shorted.
+3. Diode mode (power off): verify LED polarity and health.
+4. Multimeter (voltage mode, running): check GPIO pin swings between LOW and HIGH.
+5. Oscilloscope (if needed): confirm actual waveform timing and duty cycle.
+
+Typical root causes found:
+
+- LED installed backwards
+- Wrong resistor value
+- GPIO configured as input instead of output
+- Missing ground reference between modules
+
+## Related Topics
+
+- See LEDS.md for LED resistor sizing.
+- See RESISTORS.md for resistor verification and values.
+- See MICROCONTROLLERS.md for GPIO and PWM behavior.

@@ -77,3 +77,33 @@ Key peripheral types built into most microcontrollers:
 - Minimal flash and RAM, very few pins — but extremely small and cheap.
 - Can be programmed via an Arduino acting as an ISP programmer.
 - Ideal for: embedding a tiny bit of intelligence inside a small product or where space is critical.
+
+---
+
+## Worked Example: Choosing an MCU
+
+Goal: choose a controller for a battery-powered sensor node that needs Wi-Fi and deep sleep.
+
+Requirements:
+
+- Wi-Fi connectivity
+- Low sleep current
+- Small board size
+- Enough GPIO for a sensor and status LED
+
+Reasoning:
+
+- Arduino Uno/Nano: simple, but no native Wi-Fi and less suited to low-power IoT.
+- ESP8266: has Wi-Fi and low cost; suitable for simple connected sensors.
+- ESP32: adds more features (BLE, more GPIO, dual-core), useful if future expansion is likely.
+
+Practical decision:
+
+- Start with `ESP8266` for minimal cost/complexity.
+- Choose `ESP32` if you need BLE, more peripherals, or more processing headroom.
+
+## Related Topics
+
+- See POWERSOURCE.md for battery and regulator planning.
+- See CRYSTALSOSCILLATORS.md for timing source considerations.
+- See TOOLS.md for debugging hardware interfaces.
