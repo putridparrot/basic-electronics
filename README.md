@@ -28,6 +28,8 @@ V = I × R
 - If you know any two of Voltage, Current, or Resistance, you can calculate the third.
 - Example: a 9 V battery driving current through a 470 Ω resistor will allow `I = V / R = 9 / 470 ≈ 19 mA` of current to flow.
 
+For a full list of formulae including power, voltage dividers, RC time constants, and more, see the [Formulae](FORMULAE.md) reference page.
+
 ### Series vs Parallel
 
 **Series** — components are chained end-to-end. The same current flows through all of them, but voltage is shared (divided) across them.
