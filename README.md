@@ -5,6 +5,7 @@ This repository is a practical reference for learning electronics fundamentals, 
 ## How to Use This Repo
 
 - Start with [Formulae](FORMULAE.md) for core equations.
+- Use [Glossary](GLOSSARY.md) when you need quick definitions of common electronics and embedded abbreviations.
 - Read component pages as needed while building circuits.
 - Use [Tools](TOOLS.md) as a bench and debugging checklist.
 - Use [Microcontrollers](MICROCONTROLLERS.md) when selecting a controller platform.
@@ -14,6 +15,7 @@ This repository is a practical reference for learning electronics fundamentals, 
 | Page | Difficulty | Focus |
 |---|---|---|
 | [Formulae](FORMULAE.md) | Beginner | Core equations and worked calculations |
+| [Glossary](GLOSSARY.md) | Beginner | Common abbreviations and quick definitions |
 | [Resistors](RESISTORS.md) | Beginner | Current limiting, dividers, tolerance, power |
 | [Capacitors](CAPACITORS.md) | Beginner | Decoupling, timing, filtering, capacitor types |
 | [Diodes](DIODES.md) | Beginner | Rectification, protection, diode families |
